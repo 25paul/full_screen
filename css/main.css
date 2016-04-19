@@ -1,0 +1,36 @@
+body{
+    font-family: Arial,"Microsoft YaHei","Hiragino Sans GB",sans-serif;
+}
+#section0{
+    background:url("../images/1.jpg");
+    color: #ffcc00;
+}
+#section1{
+    background:url("../images/2.jpg");
+    color: #ffcc00;
+}
+#section2{
+    background:url("../images/3.jpg");
+    color: #ffcc00;
+}
+#section3{
+    background:url("../images/4.jpg");
+    color: #ffcc00;
+}
+#section4{
+    background:url("../images/5.jpg");
+    color: #ffcc00;
+}
+#section0,
+#section1,
+#section2,
+#section3，
+#section4{
+    background-color: black;
+    background-size: cover;
+}
+
+h1{
+    font-size: 3em;
+    font-weight: normal;
+}

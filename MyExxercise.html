@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>全屏切换效果</title>
+    <link href="css/main.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+</head>
+
+<body>
+<div id="fullpage">
+    <div class="section" id="section0"><h1>第一屏</h1></div>
+    <div class="section" id="section1"><h1>第二屏</h1></div>
+    <div class="section" id="section2"><h1>第三屏</h1></div>
+    <div class="section" id="section3"><h1>第四屏</h1></div>
+    <div class="section" id="section4"><h1>第五屏</h1></div>
+</div>
+<script src="js/jquery-1.11.1.js"></script>
+<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+<script>
+$(function(){
+	$('#fullpage').fullpage({
+		'verticalCentered': true,
+		'css3': true,
+		'navigation': true,
+		'navigationPosition': 'right',
+		'navigationTooltips': ['第一屏', '第二屏', '第三屏', '第四屏','第五屏'],
+		'scrollOverflow': true,
+        'continuousVertical':true
+	})
+})
+</script>
+</body>
+</html>
